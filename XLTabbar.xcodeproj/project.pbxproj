@@ -13,9 +13,17 @@
 		90C1985B1E869D4D00E4090D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C198591E869D4D00E4090D /* Main.storyboard */; };
 		90C1985D1E869D4D00E4090D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90C1985C1E869D4D00E4090D /* Assets.xcassets */; };
 		90C198601E869D4D00E4090D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C1985E1E869D4D00E4090D /* LaunchScreen.storyboard */; };
+		90C1986B1E869E8500E4090D /* NSString+StringSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C1986A1E869E8500E4090D /* NSString+StringSize.m */; };
+		90C1986E1E869E9A00E4090D /* UIColor+XLHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C1986D1E869E9A00E4090D /* UIColor+XLHex.m */; };
+		90C198711E869EFF00E4090D /* XLTabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C198701E869EFF00E4090D /* XLTabbarItem.m */; };
+		90C198741E869F1200E4090D /* XLTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C198731E869F1200E4090D /* XLTabbar.m */; };
+		90C198771E86C12E00E4090D /* XLBarItemWrapperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C198761E86C12E00E4090D /* XLBarItemWrapperView.m */; };
+		90C1987A1E87AA9700E4090D /* XLBarItemVeticalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C198791E87AA9700E4090D /* XLBarItemVeticalView.m */; };
+		CC5DFF82529BCF502ED35795 /* libPods-XLTabbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37471FA87DD4D27AEE5DD7C9 /* libPods-XLTabbar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37471FA87DD4D27AEE5DD7C9 /* libPods-XLTabbar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLTabbar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C1984D1E869D4D00E4090D /* XLTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C198511E869D4D00E4090D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90C198531E869D4D00E4090D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +34,20 @@
 		90C1985C1E869D4D00E4090D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90C1985F1E869D4D00E4090D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90C198611E869D4D00E4090D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C198691E869E8500E4090D /* NSString+StringSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringSize.h"; sourceTree = "<group>"; };
+		90C1986A1E869E8500E4090D /* NSString+StringSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringSize.m"; sourceTree = "<group>"; };
+		90C1986C1E869E9A00E4090D /* UIColor+XLHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XLHex.h"; sourceTree = "<group>"; };
+		90C1986D1E869E9A00E4090D /* UIColor+XLHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XLHex.m"; sourceTree = "<group>"; };
+		90C1986F1E869EFF00E4090D /* XLTabbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTabbarItem.h; sourceTree = "<group>"; };
+		90C198701E869EFF00E4090D /* XLTabbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTabbarItem.m; sourceTree = "<group>"; };
+		90C198721E869F1200E4090D /* XLTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTabbar.h; sourceTree = "<group>"; };
+		90C198731E869F1200E4090D /* XLTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTabbar.m; sourceTree = "<group>"; };
+		90C198751E86C12E00E4090D /* XLBarItemWrapperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBarItemWrapperView.h; sourceTree = "<group>"; };
+		90C198761E86C12E00E4090D /* XLBarItemWrapperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBarItemWrapperView.m; sourceTree = "<group>"; };
+		90C198781E87AA9700E4090D /* XLBarItemVeticalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBarItemVeticalView.h; sourceTree = "<group>"; };
+		90C198791E87AA9700E4090D /* XLBarItemVeticalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBarItemVeticalView.m; sourceTree = "<group>"; };
+		BBAE68A58E6D65475144CD66 /* Pods-XLTabbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLTabbar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLTabbar/Pods-XLTabbar.debug.xcconfig"; sourceTree = "<group>"; };
+		EA878DCFEA3AC1E6F421A4A8 /* Pods-XLTabbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLTabbar.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLTabbar/Pods-XLTabbar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC5DFF82529BCF502ED35795 /* libPods-XLTabbar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +67,8 @@
 			children = (
 				90C1984F1E869D4D00E4090D /* XLTabbar */,
 				90C1984E1E869D4D00E4090D /* Products */,
+				ACCE819E232AB3F268C3406B /* Pods */,
+				CEBDCFAC86CD703B32406413 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +83,7 @@
 		90C1984F1E869D4D00E4090D /* XLTabbar */ = {
 			isa = PBXGroup;
 			children = (
+				90C198671E869D8600E4090D /* XLTabbar */,
 				90C198531E869D4D00E4090D /* AppDelegate.h */,
 				90C198541E869D4D00E4090D /* AppDelegate.m */,
 				90C198561E869D4D00E4090D /* ViewController.h */,
@@ -79,6 +105,50 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		90C198671E869D8600E4090D /* XLTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				90C198681E869E5000E4090D /* Category */,
+				90C198721E869F1200E4090D /* XLTabbar.h */,
+				90C198731E869F1200E4090D /* XLTabbar.m */,
+				90C1986F1E869EFF00E4090D /* XLTabbarItem.h */,
+				90C198701E869EFF00E4090D /* XLTabbarItem.m */,
+				90C198751E86C12E00E4090D /* XLBarItemWrapperView.h */,
+				90C198761E86C12E00E4090D /* XLBarItemWrapperView.m */,
+				90C198781E87AA9700E4090D /* XLBarItemVeticalView.h */,
+				90C198791E87AA9700E4090D /* XLBarItemVeticalView.m */,
+			);
+			path = XLTabbar;
+			sourceTree = "<group>";
+		};
+		90C198681E869E5000E4090D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				90C198691E869E8500E4090D /* NSString+StringSize.h */,
+				90C1986A1E869E8500E4090D /* NSString+StringSize.m */,
+				90C1986C1E869E9A00E4090D /* UIColor+XLHex.h */,
+				90C1986D1E869E9A00E4090D /* UIColor+XLHex.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		ACCE819E232AB3F268C3406B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBAE68A58E6D65475144CD66 /* Pods-XLTabbar.debug.xcconfig */,
+				EA878DCFEA3AC1E6F421A4A8 /* Pods-XLTabbar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEBDCFAC86CD703B32406413 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37471FA87DD4D27AEE5DD7C9 /* libPods-XLTabbar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90C198641E869D4D00E4090D /* Build configuration list for PBXNativeTarget "XLTabbar" */;
 			buildPhases = (
+				83B480B5134BA58F670549D8 /* [CP] Check Pods Manifest.lock */,
 				90C198491E869D4D00E4090D /* Sources */,
 				90C1984A1E869D4D00E4090D /* Frameworks */,
 				90C1984B1E869D4D00E4090D /* Resources */,
+				897D738C43AA239F6C9D5359 /* [CP] Embed Pods Frameworks */,
+				0770461B4F4D15ABBA2373FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +183,7 @@
 				TargetAttributes = {
 					90C1984C1E869D4D00E4090D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H9723V5S27;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -145,12 +219,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0770461B4F4D15ABBA2373FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLTabbar/Pods-XLTabbar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83B480B5134BA58F670549D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		897D738C43AA239F6C9D5359 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLTabbar/Pods-XLTabbar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90C198491E869D4D00E4090D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C198711E869EFF00E4090D /* XLTabbarItem.m in Sources */,
+				90C198741E869F1200E4090D /* XLTabbar.m in Sources */,
 				90C198581E869D4D00E4090D /* ViewController.m in Sources */,
+				90C1986E1E869E9A00E4090D /* UIColor+XLHex.m in Sources */,
+				90C1986B1E869E8500E4090D /* NSString+StringSize.m in Sources */,
+				90C198771E86C12E00E4090D /* XLBarItemWrapperView.m in Sources */,
+				90C1987A1E87AA9700E4090D /* XLBarItemVeticalView.m in Sources */,
 				90C198551E869D4D00E4090D /* AppDelegate.m in Sources */,
 				90C198521E869D4D00E4090D /* main.m in Sources */,
 			);
@@ -268,8 +396,10 @@
 		};
 		90C198651E869D4D00E4090D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBAE68A58E6D65475144CD66 /* Pods-XLTabbar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H9723V5S27;
 				INFOPLIST_FILE = XLTabbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BS.XLTabbar;
@@ -279,8 +409,10 @@
 		};
 		90C198661E869D4D00E4090D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA878DCFEA3AC1E6F421A4A8 /* Pods-XLTabbar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H9723V5S27;
 				INFOPLIST_FILE = XLTabbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BS.XLTabbar;
@@ -307,6 +439,7 @@
 				90C198661E869D4D00E4090D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

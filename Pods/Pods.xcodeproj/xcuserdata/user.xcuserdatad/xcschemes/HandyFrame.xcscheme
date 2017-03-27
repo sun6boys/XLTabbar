@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "90C1984C1E869D4D00E4090D"
-               BuildableName = "XLTabbar.app"
-               BlueprintName = "XLTabbar"
-               ReferencedContainer = "container:XLTabbar.xcodeproj">
+               BlueprintIdentifier = "BAE53AD0B7382177F4D30E0299A670EC"
+               BuildableName = "libHandyFrame.a"
+               BlueprintName = "HandyFrame"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "90C1984C1E869D4D00E4090D"
-            BuildableName = "XLTabbar.app"
-            BlueprintName = "XLTabbar"
-            ReferencedContainer = "container:XLTabbar.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "90C1984C1E869D4D00E4090D"
-            BuildableName = "XLTabbar.app"
-            BlueprintName = "XLTabbar"
-            ReferencedContainer = "container:XLTabbar.xcodeproj">
+            BlueprintIdentifier = "BAE53AD0B7382177F4D30E0299A670EC"
+            BuildableName = "libHandyFrame.a"
+            BlueprintName = "HandyFrame"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "90C1984C1E869D4D00E4090D"
-            BuildableName = "XLTabbar.app"
-            BlueprintName = "XLTabbar"
-            ReferencedContainer = "container:XLTabbar.xcodeproj">
+            BlueprintIdentifier = "BAE53AD0B7382177F4D30E0299A670EC"
+            BuildableName = "libHandyFrame.a"
+            BlueprintName = "HandyFrame"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
